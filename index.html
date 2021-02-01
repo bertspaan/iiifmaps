@@ -20,18 +20,22 @@
       height: 100%;
       align-items: center;
       justify-content: center;
+      flex-direction: column;
     }
 
     img {
       width: 100px;
+	    display: block;
     }
+		.text {
+			padding: 1em;
+		}
+		
   </style>
 </head>
 <body>
-  <div>
-    <img alt="Allmaps"
-      src="https://raw.githubusercontent.com/allmaps/style/master/allmaps-logo.svg" />
-    <span>My IIIF + Maps prototype has moved to <a href="https://allmaps.org">allmaps.org</a></span>
-  </div>
+  <img alt="Allmaps"
+    src="https://raw.githubusercontent.com/allmaps/style/master/allmaps-logo.svg" />
+  <span class="text">My IIIF + Maps prototype has moved to <a href="https://allmaps.org">allmaps.org</a></span>
 </body>
 </html>
